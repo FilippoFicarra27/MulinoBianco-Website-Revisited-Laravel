@@ -1,0 +1,28 @@
+
+#menu_tendina{
+    display: block;
+    background-color: #fbf7ec;
+    height:100vh;
+    
+}
+#menu_tendina.hidden{
+    display: none;
+}
+
+#menu_tendina a{
+    text-decoration: none;
+    font-size:30px;
+    font-family:'Crimson Pro', sans-serif;
+    
+    color:rgb(90, 30, 15);
+}
+
+.croce_tendina{
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+    position: relative;
+    top:10px;
+    left:10px;
+    
+}

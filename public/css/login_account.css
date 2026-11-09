@@ -1,0 +1,361 @@
+body{
+    margin:0px;
+    
+}
+
+h4{
+    font-family: titillium web, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color:gray;
+}
+
+.hidden{
+    display:none;
+}
+
+
+
+.immagini_cerchi{
+    height:40%;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#immagine_omino{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    position:fixed;
+    left:10px;
+    bottom: 10px;
+}
+
+
+nav{
+    height:15vh;
+    display:flex;
+    justify-content:space-around;
+    background-color:#f8c352;
+    
+}
+
+
+
+section{
+    background-color:rgb(251, 247, 236);
+    display:flex;
+    flex-direction:column;
+    align-items: center; 
+    padding-bottom: 150px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+.sottolineato{
+    text-decoration:underline;
+}
+
+section h2{
+    font-family:'Crimson Pro', sans-serif;
+    text-align: center;
+    color:rgb(90, 30, 15);
+    font-size:48px;
+    margin-bottom:-10px;
+}
+section h3{
+    font-size:30px;
+    font-family:'Crimson Pro', sans-serif;
+    text-align:center;
+    color:rgb(90, 30, 15);
+}
+section p{
+    color: rgb(90, 30, 15);
+    font-family: "titillium web", sans-serif;
+    font-size: 17px;
+
+    font-weight: 400;
+    
+    text-align: center;
+    
+}
+
+.a_button{
+    border-radius:20px;
+    padding:12px 48px;
+    font-family: "titillium web", sans-serif;
+    font-size: 20px;
+
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.sfondo_grigio{
+    background-color:#007a8c;
+    color: #fbf7ec;
+}
+.sfondo_blu{
+    background-color:rgb(85, 27, 17);
+    color: #fbf7ec;
+    margin-left: 10px;
+}
+
+
+
+
+#div_registrazione_accesso{
+    display:flex;
+    justify-content: space-around;
+}
+
+#div_registrazione{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+
+.riga_grigia{
+    border-left: 1px solid #bcb6af;
+    padding-left: 50px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#div_accesso{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#credenziali_mail_telefono{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+#credenziali_mail_telefono a{
+    display: flex;
+    align-items: center;
+    padding:12px 20px;
+    
+}
+
+
+#credenziali_mail_telefono img{
+    height:30px;
+    width:30px;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+    width:100%;
+}
+
+form p{
+    text-align: left;
+    width:100%;
+}
+
+#form_registrazione{
+    width:60%;
+}
+
+
+
+.testo_form{
+    width:100%;
+    
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #bcb6af;
+    font-family: titillium web, sans-serif;
+    background-color: transparent;
+    font-family: titillium web, sans-serif;
+    font-weight: 400;
+    padding: 0px 18px;
+    font-size: 20px;
+    color:#bcb6af;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+#social_login{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    
+}
+#social_login img{
+    height:50px;
+    width:50px;
+    margin-left: 10px;
+}
+
+
+@media  screen and (max-width: 700px) {
+    
+
+
+    
+    article{
+        width:700px;
+        margin:0px;
+    }
+    nav{
+        
+        justify-content: space-between;
+        
+        
+    }
+    
+    nav img{
+        height:60%;
+        margin-top: 10px;
+        margin-left:50px;
+    }
+
+    #immagine_omino{
+        height:50px;
+        width:50px;
+        border-radius:0%;
+        position:fixed;
+        left:0px;
+        bottom: 0px;
+        
+        
+    }
+    
+
+    section{
+        
+        display:block;
+    }
+    
+    
+    #credenziali_mail_telefono{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    
+    
+    
+    
+    section h2{
+        
+        
+        font-size:50px;
+        
+    }
+    
+    section p{
+        
+        font-size: 25px;
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    #div_registrazione_accesso{
+        display:block;
+        padding-right: 40px;
+        
+    }
+    
+    #div_registrazione{
+        
+        margin-right:0px;
+        border-bottom: 1px solid #bcb6af;
+        padding-bottom:30px;
+        
+        
+    }
+    
+    
+    .riga_grigia{
+        border-left: none;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -20px;
+        width:100%;
+        margin-bottom: 10px;
+    }
+    
+    form p{
+        text-align: center;
+        width:100%;
+    }
+    
+    #form_registrazione{
+        width:90%;
+        margin-left: 40px;
+
+
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    #div_submit{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #social_login{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    #social_login img{
+        height:50px;
+        width:50px;
+        margin-left: 10px;
+    }
+    
+    
+    .hidden{
+        display: none;
+    }
+
+
+
+}
+

@@ -1,0 +1,157 @@
+
+
+footer{
+    background-color: rgb(251, 247, 236);
+}
+
+
+footer p{
+    color:rgb(77, 25, 0);
+    font-family: "titillium web", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    height: auto;
+    
+    
+}
+footer a{
+    color:rgb(77, 25, 0);
+}
+
+#mulino_footer{
+    height:100px;
+    width:200px;
+    margin-top:-50px;
+}
+
+
+
+
+.div_sopra{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#div_contatti{
+    width:55%;
+    margin:20px 10px 3px 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#div_contatti a{
+    text-decoration:none;
+    
+}
+.div_ricette{
+    width:70%;
+    margin:-18px 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.div_pan_di_stelle{
+    margin-top:10px;
+    margin-bottom:20px;
+    width: 23%;
+    text-align: center;
+}
+
+.div_pan_di_stelle p{
+
+    font-family: "titillium web", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 12px;
+    
+}
+
+.div_pan_di_stelle a{
+    text-decoration: none;
+    color: rgb(0, 122, 194);
+}
+
+
+
+
+#div_gestisci{
+    border:1px solid rgb(104, 182, 49);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left:22px;
+    padding-right:22px;
+    text-align: center;
+    color:rgb(104, 182, 49);
+}
+
+
+#div_gestisci:hover{
+    background-color:rgb(104, 182, 49);
+    color:white;
+}
+
+
+
+#div_social{
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:rgb(77,25,0);
+}
+
+
+#div_social img{
+    margin: 10px 40px;
+    height:40px;
+    width:40px;
+}
+
+
+@media  screen and (max-width: 700px) {
+    
+
+    #div_contatti{
+        display:block;
+        text-align: center;
+    }
+    
+    #div_gestisci{
+        
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+
+    .div_ricette{
+        display:block;
+        text-align: center;
+    }
+
+    .div_ricette a{
+        text-decoration:none;
+        display: block;
+        
+        margin-bottom: 5px;
+    }
+
+    .div_pan_di_stelle{
+        margin-top:30px;
+        
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .div_pan_di_stelle p{
+        font-size: 15px;
+       
+    }
+
+
+
+}

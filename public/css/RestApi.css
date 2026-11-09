@@ -1,0 +1,357 @@
+body{
+    margin:0px;
+    
+}
+
+h4{
+    font-family: titillium web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:gray;
+}
+
+.hidden{
+    display: none;
+}
+
+
+span{
+    color:rgb(90, 30, 15);
+    font-size: 90px;
+    font-weight: 700px;
+    margin-bottom: -20px;
+}
+
+.immagini_cerchi{
+    height:40%;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#immagine_omino{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    position:fixed;
+    left:10px;
+    bottom: 10px;
+}
+
+
+
+#mulino_home{
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-bottom: -40px;
+}
+
+nav{
+    height:15vh;
+    display:flex;
+    justify-content:space-around;
+    background-color:lightblue;
+    
+}
+
+
+section{
+    background-color:rgb(251, 247, 236);
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center; 
+    padding-bottom: 150px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+
+section h2{
+    font-family:'Crimson Pro', sans-serif;
+    text-align: center;
+    color:rgb(90, 30, 15);
+    font-size:48px;
+    margin-bottom:-10px;
+}
+section h3{
+    font-size:30px;
+    font-family:'Crimson Pro', sans-serif;
+    text-align:center;
+    color:rgb(90, 30, 15);
+}
+section p{
+    color: rgb(90, 30, 15);
+    font-family: "titillium web", sans-serif;
+    font-size: 17px;
+    
+    font-weight: 400;
+    
+    text-align: center;
+    
+}
+
+
+
+
+#notizie_api{
+    text-align: center;
+    
+}
+
+#data_notizia{
+    margin-top: 10px;
+}
+
+#visualizza_notizie{
+    display:flex;
+    background-color: rgb(255, 237, 174);
+    margin: 20px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+#torta{
+    text-align: center;
+}
+
+#visualizza_torte{
+    display:flex;
+    background-color: rgb(255, 237, 174);
+    margin: 20px 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.ingredienti_torta{
+    border:1px solid black;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.item_div_senza_oauth2{
+    background-color: white;
+    border:1px solid black;
+    margin: 10px 5px;
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+div.item_div_senza_oauth2 h2{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.item_div_senza_oauth2 p{
+    color:black;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
+div.item_div_senza_oauth2 img{
+    width:70%;
+    height:70%;
+    margin:20px;
+}
+
+div.item_div_senza_oauth2 a:hover{
+    color:bisque;
+    background-color:blue;
+}
+
+
+
+#visualizza_voli{
+    display:flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#volo{
+    text-align: center;
+}
+
+
+
+#spotify{
+   
+    margin-top:10px;
+    text-align: center;
+    
+    
+    
+}
+#visualizza_spotify{
+    display:flex;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+
+
+.div_da_visualizzare_oauth2{
+    background-color: white;
+    border:2px solid black;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px 20px;
+    
+    
+}
+div.div_da_visualizzare_oauth2 img{
+    width:40%;
+    height:40%;
+    margin:20px 20px;
+
+}
+
+.titolo_spotify{
+    padding: 10px;
+    text-align: center;
+    color:red;
+    font-size:35px;
+}
+
+
+.artisti_spotify{
+    text-align: center;
+    color:red;
+    font-size:25px;
+}
+
+div.div_da_visualizzare_oauth2 a:hover{
+    background-color: bisque;
+    color:blue;
+}
+
+.div_di_artisti{
+    display:flex;
+    flex-direction: column;
+}
+
+.visualizza_risultati{
+    width:100%;
+}
+
+#api{
+    width:100%;
+}
+
+
+@media  screen and (max-width: 700px) {
+    #immagine_omino{
+        height:50px;
+        width:50px;
+        border-radius:0%;
+        position:fixed;
+        left:0px;
+        bottom: 0px;
+        
+        
+    }
+    
+    
+    article{
+        width:700px;
+        margin:0px;
+    }
+    nav{
+        display:flex;
+        justify-content: space-between;
+    }
+    
+    nav img{
+        height:60%;
+        margin-top: 10px;
+    }
+
+    
+    section h2{
+        
+        font-size:50px;
+       
+    }
+    
+    section p{
+        
+        font-size: 25px;
+        
+        
+    }
+
+    
+    .hidden{
+        display: none;
+    }
+
+
+    #visualizza_notizie{
+        display: block;
+    }
+
+    
+
+    #visualizza_spotify{
+        display:block;
+
+    }
+
+    
+
+    #visualizza_voli{
+        display:block;
+    }
+
+    
+
+    #visualizza_torte{
+        display:block;
+        
+    }
+
+    .div_da_visualizzare_oauth2{
+        
+        width:97%;
+        
+        margin: 20px 0px;
+        
+        
+    }
+   
+    
+
+    .item_div_senza_oauth2{
+        
+        margin: 20px 0px;
+        margin-left: 10px;
+        width:97%;
+        
+    
+    }
+
+   
+
+}
+

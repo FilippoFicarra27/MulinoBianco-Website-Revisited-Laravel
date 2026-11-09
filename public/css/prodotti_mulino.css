@@ -1,0 +1,310 @@
+body{
+    margin:0px;
+    
+}
+
+span{
+    color:rgb(90, 30, 15);
+    font-size: 90px;
+    font-weight: 700px;
+    margin-bottom: -20px;
+}
+
+.immagini_cerchi{
+    height:40%;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+#sfondo_header_e_nav{
+    background-image:url("https://www.mulinobianco.it/origin0/v3/upl/entities/page/header_prodotti_no%20logo_2.jpg");
+    background-size: cover;
+}
+
+
+nav{
+    height:15vh;
+    display:flex;
+    justify-content:space-around;
+    
+    
+}
+header{
+    height:40vh;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#immagine_omino{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    position:fixed;
+    left:10px;
+    bottom: 10px;
+}
+
+section{
+    background-color:rgb(251, 247, 236);
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+.div_section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:60%;
+    
+    
+}
+
+
+
+section h2{
+    font-family:'Crimson Pro', sans-serif;
+    text-align: center;
+    color:rgb(90, 30, 15);
+    font-size:48px;
+    margin-bottom:-10px;
+    
+    
+}
+section h3{
+    font-size:30px;
+    font-family:'Crimson Pro', sans-serif;
+    text-align:center;
+    color:rgb(90, 30, 15);
+}
+section p{
+    color: rgb(90, 30, 15);
+    font-family: "titillium web", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    
+    text-align: center;
+}
+
+.a_button{
+    border-radius:20px;
+    background-color:rgb(85, 27, 17);
+    padding:12px 48px;
+    color: white;
+    font-family: "titillium web", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+a.a_button:hover{
+    background-color: black;
+}
+
+section a{
+    text-decoration:none;
+}
+
+
+
+
+.div_larghezza_ridotta{
+    width:65%;
+    text-align: center;
+}
+
+.img_menu{
+    width:100%;
+}
+
+
+
+div.div_larghezza_ridotta div{
+    
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom:15px;
+}
+
+div.div_larghezza_ridotta div img{
+    margin-top:-30px;
+    height:220px;
+    width:320px;
+    
+}
+
+#div4{
+    background-color: rgb(255, 237, 174);
+    width:100%;
+    margin-top: 65px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div4 h2{
+    margin:-5px;
+}
+
+#div4 div{
+    width:60%;
+    display:flex;
+    
+}
+
+
+
+.white_div{
+    background-color: white;
+    margin:15px 35px 90px 70px;
+    padding:20px 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#visualizza_prodotti_mulino{
+    width:80%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.div_da_visualizzare_prodotti{
+    height:300px;
+    width:300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 237, 174); 
+    margin: 20px;
+       
+}
+.immagine_prodotto{
+    width:200px;
+    height:200px;
+   
+}
+
+.immagine_cuore{
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+    position:relative;
+    left:115px;
+    top:10px;
+}
+
+div.div_da_visualizzare_prodotti p{
+    font-size: 18px;
+    font-family: titillium web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #5a1e0f;
+}
+
+
+@media  screen and (max-width: 700px) {
+
+    article{
+        width:700px;
+        margin:0px;
+    }
+    nav{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    
+    nav img{
+        height:60%;
+        margin-top: 10px;
+        margin-left:50px;
+    }
+
+    
+    #immagine_omino{
+        height:50px;
+        width:50px;
+        border-radius:0%;
+        position:fixed;
+        left:0px;
+        bottom: 0px;
+        
+        
+    }
+    
+   
+    
+    
+   
+    
+    
+    div.div_section{
+        width:100%;
+    }
+    
+    
+    section h2{
+        
+        font-size:50px;
+        
+    }
+    
+    section p{
+        
+        font-size: 25px;
+        
+        
+    }
+
+   
+
+    div.div_larghezza_ridotta{
+        width:100%;
+    }
+
+        
+    #visualizza_prodotti_mulino{
+        width:100%;
+        
+    }
+
+    .div_da_visualizzare_prodotti{
+        height:250px;
+        width:250px;
+    
+        margin: 20px;
+       
+    }   
+    .immagine_prodotto{
+        width:170px;
+        height:170px;
+   
+    }
+
+    .immagine_cuore{
+        
+        position:relative;
+        left:100px;
+        top:20px;
+    }
+
+   
+    
+}
